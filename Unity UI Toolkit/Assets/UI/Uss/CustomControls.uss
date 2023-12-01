@@ -1,0 +1,57 @@
+#MySlider Label {
+    color: rgb(241, 24, 24);
+}
+
+#MySlider #unity-drag-container {
+    background-color: rgba(207, 50, 50, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: none;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0;
+}
+
+#MySlider #unity-tracker {
+    background-color: rgba(0, 0, 101, 0);
+    top: 0;
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-right: 0;
+    padding-top: 0;
+    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/psd%20files/preview/_all_slices/slider.png?fileID=2800000&guid=012a4f7edf86bb5468e5ce4d32647015&type=3#slider');
+}
+
+#MySlider #unity-dragger {
+    width: 20px;
+    height: 100%;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgb(222, 191, 47);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    left: 0;
+}
+
+#MySlider #unity-dragger-border {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/psd%20files/preview/_all_slices/slider_blue.png?fileID=2800000&guid=b853fbda74f291a4eb419b21e009fb10&type=3#slider_blue');
+    width: 100%;
+    height: 50px;
+}

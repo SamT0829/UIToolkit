@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/Button.uss?fileID=7433441132597879392&amp;guid=f0b75a3869a535f458de77861b24dcae&amp;type=3#Button" />
+    <ui:VisualElement style="flex-grow: 0; width: 100%; height: 100%; background-color: rgba(5, 4, 4, 0); position: relative; flex-direction: column; flex-wrap: nowrap; flex-basis: auto; justify-content: flex-start; align-self: auto; align-items: flex-start; opacity: 1;">
+        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 50%; position: relative; background-color: rgba(245, 17, 17, 0); flex-direction: row; margin-top: 0; align-items: flex-end; justify-content: space-around;">
+            <ui:VisualElement name="image_Boy" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/ART/Hyperspace%20-%20Floating.png?fileID=2800000&amp;guid=5e26bc619775a514ea0dd77c6a1e2a1a&amp;type=3#Hyperspace - Floating&apos;); margin-top: 0; height: 600px; width: 300px;" />
+            <ui:VisualElement name="image_Robot" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/ART/Hyperspace%20-%20Robot%202.png?fileID=2800000&amp;guid=1aaa13e65b7c67c4ca66675b98e4f7f8&amp;type=3#Hyperspace - Robot 2&apos;); height: 600px; width: 300px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="background-color: rgba(253, 253, 253, 0.98); width: 100%; flex-grow: 1;">
+            <ui:VisualElement style="flex-grow: 0; width: 100%; height: 80%; position: relative; background-color: rgba(253, 253, 253, 0); justify-content: flex-start;">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="text-title" />
+                <ui:Label tabindex="-1" text="UI Builder is a web user interface builder. Use UI Builder to build pages for App Engine Studio generated workspaces or custom web experiences using Next ..." parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="Paragraph" class="text-paragraph" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_Open" class="button-blue" style="margin-left: 10%; margin-right: 10%; margin-top: 2.5%; margin-bottom: 2.5%; padding-top: 0; padding-right: 0; padding-bottom: 10px; padding-left: 12px; -unity-slice-left: 0; -unity-slice-top: 0; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); justify-content: flex-start; flex-shrink: 1; height: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Container_Bottom" style="position: absolute; justify-content: flex-start; align-items: auto; flex-direction: column; background-color: rgba(0, 0, 0, 0); display: flex; flex-grow: 1; width: 100%; height: 100%; align-self: auto; color: rgb(0, 0, 0); opacity: 1; visibility: visible;">
+            <ui:VisualElement name="Scrim" class="scrim" />
+            <ui:VisualElement name="BottomSheet" class="bottomsheet">
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-title" />
+                <ui:VisualElement name="Image_Girl" class="image-girl" style="transition-timing-function: ease;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Message" class="text-paragraph" style="height: 10%; padding-top: 10px; margin-top: 0; width: 100%; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-right: 50px; padding-bottom: 10px; padding-left: 50px;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_Close" style="position: absolute; background-image: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=-6090568113533005507&amp;guid=c24cb87e86c1db14aab92c1023f90380&amp;type=3#check&apos;); width: 50px; height: 50px; background-color: rgba(188, 188, 188, 0); -unity-background-image-tint-color: rgb(5, 5, 5); right: 50px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
