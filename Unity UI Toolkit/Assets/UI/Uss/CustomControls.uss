@@ -1,35 +1,55 @@
-#MySlider Label {
+#MySlider >Label {
     color: rgb(241, 24, 24);
+    display: flex;
 }
 
 #MySlider #unity-drag-container {
-    background-color: rgba(207, 50, 50, 0);
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-image: none;
+    background-color: rgb(207, 50, 50);
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/psd%20files/preview/_all_slices/slider.png?fileID=2800000&guid=012a4f7edf86bb5468e5ce4d32647015&type=3#slider');
     align-items: center;
     justify-content: flex-end;
     padding-top: 0;
+    height: 30%;
+    margin-right: 10px;
+    margin-left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    visibility: visible;
 }
 
 #MySlider #unity-tracker {
     background-color: rgba(0, 0, 101, 0);
     top: 0;
-    height: 50%;
+    height: 100%;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 0;
     margin-right: 0;
     padding-top: 0;
-    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/psd%20files/preview/_all_slices/slider.png?fileID=2800000&guid=012a4f7edf86bb5468e5ce4d32647015&type=3#slider');
+    background-image: none;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    margin-left: 0;
 }
 
 #MySlider #unity-dragger {
-    width: 20px;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     top: 0;
-    margin-top: 0;
+    margin-top: -5px;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -38,20 +58,69 @@
     padding-bottom: 0;
     padding-left: 0;
     background-color: rgb(222, 191, 47);
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
     border-left-width: 0;
     left: 0;
+    background-image: none;
+    display: flex;
+    overflow: visible;
 }
 
-#MySlider #unity-dragger-border {
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/psd%20files/preview/_all_slices/slider_blue.png?fileID=2800000&guid=b853fbda74f291a4eb419b21e009fb10&type=3#slider_blue');
-    width: 100%;
-    height: 50px;
+.bar {
+    width: 2000px;
+    height: 100%;
+    background-color: rgb(85, 231, 245);
+    align-self: flex-end;
+    background-image: none;
+    margin-top: 0;
+    margin-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.newdragger {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('project://database/Assets/ART/mobile_cartoon_GUI/GUI%20Elements/Settings/slider_pointer.png?fileID=2800000&guid=6d438c1b0313e3142bed5d126b51a5d1&type=3#slider_pointer');
+    overflow: visible;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.bubble {
+    flex-grow: 1;
+    position: absolute;
+    background-image: url('project://database/Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png?fileID=2800000&guid=af28470bd0e2e9543a6dfa9a1a4b348d&type=3#circle');
+    width: 80px;
+    height: 80px;
+    display: flex;
+    transition-property: scale, opacity;
+    transition-duration: 0.8s, 0.1s;
+    transition-timing-function: ease-in-out-elastic, ease;
+}
+
+.bubble_label {
+    font-size: 35px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    left: 1px;
+    top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/ChelaOne-Regular%20SDF.asset?fileID=11400000&guid=a14f24ac01e6f504ab5bbcbd02c1ff4d&type=2#ChelaOne-Regular SDF');
+    -unity-background-image-tint-color: rgb(245, 233, 233);
+}
+
+.bubble-hidden {
+    opacity: 0;
+    scale: 0.5 0.5;
+    transform-origin: bottom;
+    transition-duration: 0.8s;
 }

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Customizing Slider" src="project://database/Assets/UI/Uxml/Customizing%20Slider.uxml?fileID=9197481963319205126&amp;guid=04ce0bef077ce494587db8e9806a9b63&amp;type=3#Customizing Slider" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; position: absolute; translate: 0 195px; width: 100%; height: 80px;">
+            <ui:Instance template="Customizing Slider" name="Customizing Slider" style="position: relative; width: 100%; height: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

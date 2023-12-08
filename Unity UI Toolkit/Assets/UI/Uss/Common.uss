@@ -1,0 +1,7 @@
+.cursor-b {
+    cursor: url('project://database/Assets/ART/UI/Textures/Cursors/Cursor_B.png?fileID=2800000&guid=7296d0ce38203d14ab1e9dc29a1709fe&type=3#Cursor_B');
+}
+
+.cursor-a {
+    cursor: url('project://database/Assets/ART/UI/Textures/Cursors/Cursor_A.png?fileID=2800000&guid=44ccf5c3db805a740b4acd5b02cd40d7&type=3#Cursor_A');
+}

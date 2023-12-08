@@ -1,0 +1,70 @@
+TextField Label {
+    width: 30%;
+    height: 100%;
+    justify-content: flex-start;
+    -unity-text-align: middle-left;
+    font-size: 25px;
+    -unity-font-definition: url('project://database/Assets/Fonts/ChelaOne-Regular%20SDF.asset?fileID=11400000&guid=a14f24ac01e6f504ab5bbcbd02c1ff4d&type=2#ChelaOne-Regular SDF');
+    color: rgb(255, 255, 255);
+    position: relative;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+TextField #unity-text-input {
+    width: 65%;
+    flex-shrink: 1;
+    position: relative;
+    translate: 0 0;
+    font-size: 20px;
+    -unity-text-align: upper-left;
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: auto;
+    white-space: normal;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=c24cb87e86c1db14aab92c1023f90380&type=3#NotInter-Regular');
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left: 10px;
+    border-top-right-radius: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    padding-top: -10px;
+    height: 100%;
+}
+
+#unity-text-input #TextElement {
+    -unity-text-align: lower-left;
+    height: 100%;
+    width: 100%;
+}
+
+.loginbutton {
+    width: 250px;
+    align-self: center;
+    translate: 0 0;
+    background-image: url('project://database/Assets/simple%20UI%20&%20icons/box/box_map%20name.png?fileID=2800000&guid=9612150cbb33ebf4abaafcb0066d0c09&type=3#box_map name');
+    background-color: rgba(188, 188, 188, 0);
+    height: 50px;
+    font-size: 25px;
+    -unity-font-definition: url('project://database/Assets/Fonts/ChelaOne-Regular%20SDF.asset?fileID=11400000&guid=a14f24ac01e6f504ab5bbcbd02c1ff4d&type=2#ChelaOne-Regular SDF');
+    white-space: normal;
+    text-overflow: clip;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 8px;
+    letter-spacing: 10px;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.loginbutton:hover {
+    -unity-background-image-tint-color: rgb(255, 230, 230);
+}
+
+.loginbutton:active {
+    -unity-background-image-tint-color: rgb(214, 214, 214);
+}

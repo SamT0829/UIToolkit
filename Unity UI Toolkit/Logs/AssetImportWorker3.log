@@ -15,7 +15,7 @@ D:/Program Files/unity/Unity UI Toolkit
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56701
+61774
 Successfully changed project path to: D:/Program Files/unity/Unity UI Toolkit
 D:/Program Files/unity/Unity UI Toolkit
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Program Files/unity/Unity UI Toolkit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48912] Host "[IP] 192.168.8.111 [Port] 0 [Flags] 2 [Guid] 3755678738 [EditorId] 3755678738 [Version] 1048832 [Id] WindowsEditor(7,EXITGAMES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21068] Host "[IP] 192.168.8.111 [Port] 0 [Flags] 2 [Guid] 4088900616 [EditorId] 4088900616 [Version] 1048832 [Id] WindowsEditor(7,EXITGAMES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [48912] Host "[IP] 192.168.8.111 [Port] 0 [Flags] 2 [Guid] 3755678738 [EditorId] 3755678738 [Version] 1048832 [Id] WindowsEditor(7,EXITGAMES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21068] Host "[IP] 192.168.8.111 [Port] 0 [Flags] 2 [Guid] 4088900616 [EditorId] 4088900616 [Version] 1048832 [Id] WindowsEditor(7,EXITGAMES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 10.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009541 seconds.
-- Loaded All Assemblies, in  0.327 seconds
+Registered in 0.009779 seconds.
+- Loaded All Assemblies, in  0.336 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 240 ms
+Android Extension - Scanning For ADB Devices 236 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.535 seconds
-Domain Reload Profiling: 860ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (131ms)
-		LoadAssemblies (97ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (535ms)
+	FinalizeReload (534ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (475ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (339ms)
+			InitializePlatformSupportModulesInManaged (336ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 860ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.858 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,57 +127,56 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 1527ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.787 seconds
+Domain Reload Profiling: 1515ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (568ms)
-		LoadAssemblies (431ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (369ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (192ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (673ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (788ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (516ms)
+		SetupLoadedEditorAssemblies (608ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4187 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (1.5 MB). Loaded Objects now: 4644.
-Memory consumption went from 166.7 MB to 165.3 MB.
-Total: 3.483200 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.216100 ms MarkObjects: 2.629500 ms  DeleteObjects: 0.347800 ms)
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (1.7 MB). Loaded Objects now: 6291.
+Memory consumption went from 243.3 MB to 241.5 MB.
+Total: 3.746800 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.376300 ms MarkObjects: 2.577900 ms  DeleteObjects: 0.386200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -185,876 +184,606 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2701071.477777 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png
-  artifactKey: Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png using Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c7c8a4e048435777f714f64a635d3') in 0.047806 seconds
+  Time since last request: 351058.824552 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4592f1d9684ee92f2e12f611e837b9c') in 0.310545 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.563552 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png
-  artifactKey: Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png using Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e53816e98978b1b71286dd9820de1f') in 0.015599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.024760 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png
-  artifactKey: Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png using Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5bedca9ef60766e89f6f684c1853e') in 0.014918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.358399 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png
-  artifactKey: Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png using Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f1aabd54a2121fbe730804a9778bf9') in 0.013656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.015308 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png
-  artifactKey: Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png using Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af89a9b6db209254de9665e41ba09e94') in 0.013431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.012521 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png
-  artifactKey: Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png using Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fed645c3e97e6d13909bb35d9b1b17') in 0.013502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.221891 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png
-  artifactKey: Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png using Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a5709bfd2d3652a5c5c669214f028a') in 0.017752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.105867 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png
-  artifactKey: Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png using Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40d8a40df492558b4d420b16e341992') in 0.016252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.010462 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png
-  artifactKey: Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png using Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043390d2027b46fee33e9ae8e5a00aaf') in 0.013401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.046407 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png
-  artifactKey: Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png using Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b707d1786fa51ed781159f84690b8ed') in 0.019123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.351710 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png
-  artifactKey: Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png using Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b06b2915b7b7f5f05b30270046e294') in 0.013206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022072 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png
-  artifactKey: Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png using Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcb43356c54ff8b86a5dce55a2b281a') in 0.017444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.076730 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_balloon.png
-  artifactKey: Guid(aba578b8d0999904d909e8aca956fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_balloon.png using Guid(aba578b8d0999904d909e8aca956fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f175ea8e28ec9e09b73a82c571fb17') in 0.043603 seconds
+  Time since last request: 1.748438 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09563993868944f374633600546d554') in 0.808767 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006510 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_cherries.png
-  artifactKey: Guid(65df13acd5ced294ba181461f2871ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_cherries.png using Guid(65df13acd5ced294ba181461f2871ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b126f13352f91c670b73a6282751e1') in 0.020384 seconds
+  Time since last request: 686.353572 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset
+  artifactKey: Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineEditorResources.asset using Guid(a3d8d823eedde654bb4c11a1cfaf1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d22c61da53e98aa4e85f42fda056625') in 0.002458 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset
+  artifactKey: Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/XRSystemData.asset using Guid(60e1133243b97e347b653163a8c01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a820ce8887192108a883ba4240eb47a') in 0.001110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8145.722424 seconds.
+  path: Assets/ART/UI/Reference/1 settings-screen.jpg
+  artifactKey: Guid(cf37770f7884f5c438f61acaff6fa5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/1 settings-screen.jpg using Guid(cf37770f7884f5c438f61acaff6fa5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77028ede654526b5588d2cd3c5019f6') in 0.537041 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.302423 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_diamond.png
-  artifactKey: Guid(2fc5c74761d13b5459b321fc1b86c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_diamond.png using Guid(2fc5c74761d13b5459b321fc1b86c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c93eadb3c0e1f9a6ad1eb77e765334') in 0.017119 seconds
+  Time since last request: 0.000283 seconds.
+  path: Assets/ART/UI/Reference/5a shop-gold-screen.jpg
+  artifactKey: Guid(6d6c513601b88b148b32db70beb302f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/5a shop-gold-screen.jpg using Guid(6d6c513601b88b148b32db70beb302f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c559fa07081168064a21d8e39710e') in 0.080752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/ART/UI/Reference/5c shop-potion-screen.jpg
+  artifactKey: Guid(6ae232c72626f2f448a0bd73e1471993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/5c shop-potion-screen.jpg using Guid(6ae232c72626f2f448a0bd73e1471993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313fee9e86a6c959855001e4be1cd23b') in 0.033557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ART/UI/Reference/7c game-win-screen.jpg
+  artifactKey: Guid(007ac5eff7e03284c82913a17c70a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/7c game-win-screen.jpg using Guid(007ac5eff7e03284c82913a17c70a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8350e0062019171e8accbb8520828d34') in 0.050300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ART/UI/Reference/2c char-bio-screen.jpg
+  artifactKey: Guid(e8ffe36df9c5a304d97c798202d46db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/2c char-bio-screen.jpg using Guid(e8ffe36df9c5a304d97c798202d46db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96c950e8bd998d20ec3a60e9bfa3e39') in 0.052083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ART/UI/Reference/8d settings-screen-halloween.jpg
+  artifactKey: Guid(585ae8916905569439aec6fe59b0af73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/8d settings-screen-halloween.jpg using Guid(585ae8916905569439aec6fe59b0af73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94f497b95726c5472af9c782bbbf9c4') in 0.063412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ART/UI/Reference/7d game-lose-screen.jpg
+  artifactKey: Guid(cbf99c49dd2e68e469772f9b71423787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/7d game-lose-screen.jpg using Guid(cbf99c49dd2e68e469772f9b71423787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837fc9daca57156198830151a14a4437') in 0.076869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ART/UI/Reference/3 inventory-screen.jpg
+  artifactKey: Guid(12ce56334ecdcf64e9357f8f325e1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/3 inventory-screen.jpg using Guid(12ce56334ecdcf64e9357f8f325e1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0641c6ef4e65c3a657929ca2566645b5') in 0.079123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ART/UI/Reference/2b char-skills-screen.jpg
+  artifactKey: Guid(ac74d5988c2e00e4db06aa4b488c9d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/2b char-skills-screen.jpg using Guid(ac74d5988c2e00e4db06aa4b488c9d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a323d179e216dc559021359d8f41be4f') in 0.060302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ART/UI/Reference/2a char-stats-screen.jpg
+  artifactKey: Guid(9cb6d32d1a1947044ba261364518eb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Reference/2a char-stats-screen.jpg using Guid(9cb6d32d1a1947044ba261364518eb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a9723d3a924a64135995a7b0aad9af') in 0.036767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png
+  artifactKey: Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png using Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e4feae87b529f33d4c090e60ccc631') in 0.064622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ART/UI/Textures/Misc/coin-animation.png
+  artifactKey: Guid(795fbad20684744bb8ac16850399bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/Misc/coin-animation.png using Guid(795fbad20684744bb8ac16850399bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5696563dd783103f5a4c3fde1094f5b3') in 0.044992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ART/UI/Textures/Cursors/Cursor_A.png
+  artifactKey: Guid(44ccf5c3db805a740b4acd5b02cd40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/Cursors/Cursor_A.png using Guid(44ccf5c3db805a740b4acd5b02cd40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e2b3f0d3a5307b541c86e0795d954f') in 0.024213 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_heart.png
-  artifactKey: Guid(1b070a9071c40114c83964d47755c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_heart.png using Guid(1b070a9071c40114c83964d47755c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b524ce83c208b7afd8ece2bc6cecc4e0') in 0.021999 seconds
+  path: Assets/DOTween/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png
+  artifactKey: Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png using Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2201f597992cdbf69aa8cae8f2ebca') in 0.037224 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.086862 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_star.png
-  artifactKey: Guid(c2feaa3a1e949f0419c7903412236463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Icons/icon_star.png using Guid(c2feaa3a1e949f0419c7903412236463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a502ee85cb5e588899095d43edc94608') in 0.021206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.517809 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block_hover.png
-  artifactKey: Guid(24706e29727d82541b061f4904fc8722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_lock_block_hover.png using Guid(24706e29727d82541b061f4904fc8722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9ab17dd5b5ea48d425ab711af92368') in 0.013930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.101596 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_right.png
-  artifactKey: Guid(60a46862b9a4c7b4ebba4dc387fff7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Lvl/lvl_star_single_right.png using Guid(60a46862b9a4c7b4ebba4dc387fff7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027f26988a0b5022615d019d789cdeb6') in 0.013741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009524 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Panels/panel_start.png
-  artifactKey: Guid(1d445f0c2c13e5e4ca1dcfb7ea05f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Panels/panel_start.png using Guid(1d445f0c2c13e5e4ca1dcfb7ea05f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0249d71a2b29310a1f5147b29d8d6c6') in 0.042911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.004995 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png
-  artifactKey: Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png using Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40318732028fce8419b3caae5e00e1cc') in 0.013980 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9b611868a17d1f4f23a4525f064f81') in 0.056617 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009760 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_slot_info.png
-  artifactKey: Guid(4b81988b54ef5c24d9896a4bb981be8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_slot_info.png using Guid(4b81988b54ef5c24d9896a4bb981be8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b86f054c193631e571f9bfffb0120cf') in 0.012202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 19.522650 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_2.png
-  artifactKey: Guid(eaa141f45a62fa848aa62abe21ff5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_2.png using Guid(eaa141f45a62fa848aa62abe21ff5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af47ece7e6bab15970ccfecea5f8d275') in 0.020253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.010648 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_empty.png
-  artifactKey: Guid(37f07fbaf7f9add4c94fe0ba1ff5db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/GUI Elements/Rewards/reward_stars_empty.png using Guid(37f07fbaf7f9add4c94fe0ba1ff5db43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c7853e88302d937ce875905588329f') in 0.026800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.099311 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox.png
-  artifactKey: Guid(91d326790dfa41d48b9904b67cedf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/settings_checkbox.png using Guid(91d326790dfa41d48b9904b67cedf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340760bb68bc21bbe80ab7998e4d6877') in 0.012227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.007146 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/slider.png
-  artifactKey: Guid(012a4f7edf86bb5468e5ce4d32647015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/slider.png using Guid(012a4f7edf86bb5468e5ce4d32647015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22853db736eb24fb9e9d20145cffc459') in 0.016561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.660722 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/start_top_logo_sample.png
-  artifactKey: Guid(892385e1a5e2b634799cd448f2fde48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/start_top_logo_sample.png using Guid(892385e1a5e2b634799cd448f2fde48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe5833477c5cbbddf9da5b366f89318') in 0.023168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.056756 seconds.
-  path: Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/text_background_big.png
-  artifactKey: Guid(0a4b679624b9bdd4eab09185f61b5f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ART/mobile_cartoon_GUI/psd files/preview/_all_slices/text_background_big.png using Guid(0a4b679624b9bdd4eab09185f61b5f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c23de86c28b0b24390a90807df8661') in 0.033425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1107.507000 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png
-  artifactKey: Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png using Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a53d912d8680c833ee96a9dedac8d36') in 0.015320 seconds
+  Time since last request: 1.644713 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720e2f3b038e20af29f507130d7ecef1') in 0.217903 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010181 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png
-  artifactKey: Guid(ff88be84254fb1f4b9a81a27ae0b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png using Guid(ff88be84254fb1f4b9a81a27ae0b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4473bf8a9c5292e88baf031a3f3b2211') in 0.013410 seconds
+  Time since last request: 0.000080 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec270aa1366eb5be17e6c97e74314ab7') in 0.019053 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012799 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png
-  artifactKey: Guid(25da15ac84743244ab4c860cf8798ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png using Guid(25da15ac84743244ab4c860cf8798ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261d21a70209630b2bef4de9d4942c1b') in 0.013863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.027916 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png
-  artifactKey: Guid(4578222ee7a511446b0c340551bf8740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png using Guid(4578222ee7a511446b0c340551bf8740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd98eba42cc87cdeb3842af7c485c21') in 0.013586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.718322 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png
-  artifactKey: Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png using Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674ff67d881517136162f8b4f7c94741') in 0.013319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.105212 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png
-  artifactKey: Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png using Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd043d72170b18b567a6df15366a8e34a') in 0.017653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 376.531403 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png
-  artifactKey: Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png using Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8515173eeba6a4c00fd77482365d4e0') in 0.013008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png
-  artifactKey: Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png using Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fe1981a314f2f66af9a5705bac2b67') in 0.014160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png
-  artifactKey: Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png using Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9656cb1601bd79473753d14db246e8') in 0.014116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png
-  artifactKey: Guid(a40dc0d6372a9084fb45976308087290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png using Guid(a40dc0d6372a9084fb45976308087290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaadb7826423dfe8e0d08afaa7e0172') in 0.011474 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a69ced6c4e97c37dc794350252984e') in 0.103550 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000082 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png
-  artifactKey: Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png using Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9ada038520f7c300b21ca13456ae8a') in 0.010795 seconds
+  path: Assets/ART/UI/Textures/Misc/gem-animation.psd
+  artifactKey: Guid(68d17aab30c754b599902da691dd0e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/Misc/gem-animation.psd using Guid(68d17aab30c754b599902da691dd0e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4355ef66c0ff17339e1ea07e4859847') in 0.426350 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013344 seconds.
-  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png
-  artifactKey: Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png using Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec873c753939f7abf553210af96dc693') in 0.012260 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0943e600e948c0f50b9e8b2114f3e45') in 0.042025 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.270 seconds
-Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.960 seconds
-Domain Reload Profiling: 3226ms
-	BeginReloadAssembly (332ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (111ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (836ms)
-		LoadAssemblies (909ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (64ms)
-			TypeCache.Refresh (32ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1961ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1045ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (731ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4681.
-Memory consumption went from 157.0 MB to 155.6 MB.
-Total: 7.469000 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.729200 ms MarkObjects: 4.684300 ms  DeleteObjects: 1.619100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png
+  artifactKey: Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png using Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8e616f1c08fc6a8ad207dcbcedcf9c') in 0.025151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2116.853283 seconds.
-  path: Assets/UI/Script/CostumSlider.cs
-  artifactKey: Guid(d9bfb1a185795ec4a9db3eaeb1858ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Script/CostumSlider.cs using Guid(d9bfb1a185795ec4a9db3eaeb1858ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002585 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/ui/script/costumslider.cs in SourceAssetDB has modification time of '2023-12-01T09:34:45.6718936Z' while content on disk has modification time of '2023-12-01T09:34:57.9228619Z'
-  ERROR: Build asset version error: assets/ui/script/costumslider.cs in SourceAssetDB has modification time of '2023-12-01T09:34:45.6718936Z' while content on disk has modification time of '2023-12-01T09:34:57.9228619Z'
+  Time since last request: 0.000136 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png
+  artifactKey: Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png using Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013feb771e427f9769358bc5954d6534') in 0.024263 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.594 seconds
-Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.106 seconds
-Domain Reload Profiling: 1699ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (396ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1108ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (561ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4685.
-Memory consumption went from 159.0 MB to 157.6 MB.
-Total: 5.014400 ms (FindLiveObjects: 0.471100 ms CreateObjectMapping: 0.358500 ms MarkObjects: 3.501800 ms  DeleteObjects: 0.680000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.540 seconds
-Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.916 seconds
-Domain Reload Profiling: 1454ms
-	BeginReloadAssembly (165ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (368ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (916ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4689.
-Memory consumption went from 161.2 MB to 159.8 MB.
-Total: 3.680400 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.250900 ms MarkObjects: 2.758500 ms  DeleteObjects: 0.378500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.527 seconds
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.440 seconds
-Domain Reload Profiling: 1965ms
-	BeginReloadAssembly (172ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (367ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1441ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (818ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (537ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4693.
-Memory consumption went from 163.1 MB to 161.7 MB.
-Total: 6.347300 ms (FindLiveObjects: 0.878700 ms CreateObjectMapping: 1.068000 ms MarkObjects: 3.937300 ms  DeleteObjects: 0.460800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.526 seconds
-Refreshing native plugins compatible for Editor in 4.85 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.913 seconds
-Domain Reload Profiling: 1437ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (297ms)
-		LoadAssemblies (338ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (913ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4697.
-Memory consumption went from 165.1 MB to 163.6 MB.
-Total: 3.464200 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.254300 ms MarkObjects: 2.546700 ms  DeleteObjects: 0.359200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.524 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.485 seconds
-Domain Reload Profiling: 2009ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (289ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1487ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (173ms)
-			ProcessInitializeOnLoadAttributes (529ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4701.
-Memory consumption went from 167.0 MB to 165.6 MB.
-Total: 7.430500 ms (FindLiveObjects: 0.360300 ms CreateObjectMapping: 0.498000 ms MarkObjects: 5.352500 ms  DeleteObjects: 1.217600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1299.229752 seconds.
-  path: Assets/UI/Uxml/Customizing Slider.uxml
-  artifactKey: Guid(04ce0bef077ce494587db8e9806a9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Uxml/Customizing Slider.uxml using Guid(04ce0bef077ce494587db8e9806a9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760f475cb59501d48ada450cd6f896a') in 0.021054 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/ART/Hyperspace - TV.png
+  artifactKey: Guid(182ab22b1516dc442926e068c1437395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Hyperspace - TV.png using Guid(182ab22b1516dc442926e068c1437395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424ee85af784bd66e5c17a7bd2a507e') in 0.032146 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.303 seconds
-Domain Reload Profiling: 1849ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (344ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1304ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (834ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (535ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4705.
-Memory consumption went from 168.7 MB to 167.2 MB.
-Total: 8.842200 ms (FindLiveObjects: 0.580000 ms CreateObjectMapping: 1.315700 ms MarkObjects: 5.347300 ms  DeleteObjects: 1.597100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png
+  artifactKey: Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png using Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30f50ce00e4a061dfb674803605b138') in 0.032069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.512 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.325 seconds
-Domain Reload Profiling: 1834ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (279ms)
-		LoadAssemblies (347ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1325ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (823ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (170ms)
-			ProcessInitializeOnLoadAttributes (527ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.4 MB). Loaded Objects now: 4709.
-Memory consumption went from 170.9 MB to 169.4 MB.
-Total: 7.002600 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.315500 ms MarkObjects: 5.753900 ms  DeleteObjects: 0.567400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/switch_scenes.cs: 6e8d60f50baa4e1a63983b0d275f9ff0 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png
+  artifactKey: Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png using Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd008d0573778bd5a9e6013aa0d1fadc') in 0.016437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png
+  artifactKey: Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png using Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec26bd1bd638b81c8cb15506f2044d9') in 0.016159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png
+  artifactKey: Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png using Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbaf832e961a1dc9ba4c0b6ab9a6291') in 0.038012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png
+  artifactKey: Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png using Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eda58891fac0011c757880d04b60fcd') in 0.025027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ART/Hyperspace - Floating.png
+  artifactKey: Guid(5e26bc619775a514ea0dd77c6a1e2a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Hyperspace - Floating.png using Guid(5e26bc619775a514ea0dd77c6a1e2a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d5aea064524ccccb764361da2a83c3') in 0.123795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png
+  artifactKey: Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png using Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabdd81037141e87a34e02ba27f738e0') in 0.033710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.066210 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png
+  artifactKey: Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png using Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918a7190cc59ba4bc05e9be55ea5173') in 0.046085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png
+  artifactKey: Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png using Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae972330d3d90d275dc79051be626b6') in 0.019391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png
+  artifactKey: Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png using Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca3b0b16736214df20cf40f066a202b') in 0.079518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png
+  artifactKey: Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png using Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04007bfe6f7c2fe94a6d6eded9777d0f') in 0.016330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.225883 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png
+  artifactKey: Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png using Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633505e63f311e345d4b59a4782459ba') in 0.028039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.212078 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png
+  artifactKey: Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png using Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af312a269c84a369fe5abdfcec33910') in 0.054741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png
+  artifactKey: Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png using Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256eda5a2fc030f5f66a4923ce0b6c0') in 0.015367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png
+  artifactKey: Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png using Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045327040f42075d48db6cf88098d4d4') in 0.027064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png
+  artifactKey: Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png using Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ded9ec7677ca25a61da4ca812e8bc9') in 0.025687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.791589 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png
+  artifactKey: Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png using Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba106818bd70ca58bb30684e0d044d3') in 0.020497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.161767 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png
+  artifactKey: Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png using Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eabae1e52ace5ac3e7c7abb7fe49ca') in 0.037818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.286357 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png
+  artifactKey: Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png using Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f251cb77fe41d9650dbb3fa300b105') in 0.040605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.068764 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png
+  artifactKey: Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png using Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fff6afa90f06d6613e53e580bc0223') in 0.017920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.841655 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png
+  artifactKey: Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png using Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a53e125fe9c99afaca622641bf3bf2') in 0.014154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.105163 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png
+  artifactKey: Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png using Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a2d8835c85187126565f934f12cd50') in 0.021930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.070463 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png
+  artifactKey: Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png using Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e15651c967c290b8c046dc1278eb39') in 0.120070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009264 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png
+  artifactKey: Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png using Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d033182ae92de888291525bc3a3753') in 0.061869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png
+  artifactKey: Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png using Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8c21addd1774f19018c7d16f157630') in 0.042327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png
+  artifactKey: Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png using Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b016c130853f5078b9ba2fe79d1b45b5') in 0.016393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.159458 seconds.
+  path: Assets/ART/UI/Textures/Misc/icon-scroll.png
+  artifactKey: Guid(98e7760a6c3534c68897c4b4b6effa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/Misc/icon-scroll.png using Guid(98e7760a6c3534c68897c4b4b6effa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1218efefe8116413b8a77e07ba8903c') in 0.022379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.263188 seconds.
+  path: Assets/ART/UI/Textures/LevelThumbnails/Level_01.jpg
+  artifactKey: Guid(d0a5ab6f8b7cc0c449907191ee339dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/LevelThumbnails/Level_01.jpg using Guid(d0a5ab6f8b7cc0c449907191ee339dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d865c06b230f029a3a62d17da73f06e') in 0.118824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041138 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png
+  artifactKey: Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png using Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdbfb7d3ce855b42ffcd88e4d477b78') in 0.017667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.291302 seconds.
+  path: Assets/ART/UI/Textures/Misc/slider_shell.png
+  artifactKey: Guid(b7a6c20a3379c0e4e840f1b437727e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/UI/Textures/Misc/slider_shell.png using Guid(b7a6c20a3379c0e4e840f1b437727e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3be34fb5ce54215decd4d54a82c9bfe') in 0.067176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.606698 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png
+  artifactKey: Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png using Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f682103eb3485a6728d628f74fb933') in 0.018521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.187041 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png
+  artifactKey: Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png using Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48258e14dd13a4261ef1e22e72ad65e5') in 0.238583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.400002 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png
+  artifactKey: Guid(c456d5ac01d2aa843a63985497b04931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png using Guid(c456d5ac01d2aa843a63985497b04931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f4ec46dae55d4d5e28101190a2c810') in 0.023417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.064861 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png
+  artifactKey: Guid(dec3ea647707588408ec0d11ab130b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png using Guid(dec3ea647707588408ec0d11ab130b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a26c4f73e264f5412e20ee24db9b51') in 0.026378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.508115 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png
+  artifactKey: Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png using Guid(ed7cb8f9a27664e48896c904189f0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec5fe69693db1d143a41c4f9acb721a') in 0.013800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png
+  artifactKey: Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png using Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19571051c94b9fa2a3527f3a9b365db5') in 0.018612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.054119 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png
+  artifactKey: Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png using Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a1281dac2a3a4fae8669b682921793') in 0.030565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png
+  artifactKey: Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png using Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a11c1bc7ded73b1afc561f203afec2e') in 0.015090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.333756 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png
+  artifactKey: Guid(282d742ce2ddf9f458812ab84ea6fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png using Guid(282d742ce2ddf9f458812ab84ea6fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848aab1f913e4826c2914cc17178fd75') in 0.013754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.072505 seconds.
+  path: Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png
+  artifactKey: Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png using Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb31b570f64e8f55e6b89f5bae67c51d') in 0.029955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.385411 seconds.
+  path: Assets/UI/Uss/CustomControls.uss
+  artifactKey: Guid(4367c8274d17f774db2fbf5325ca1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uss/CustomControls.uss using Guid(4367c8274d17f774db2fbf5325ca1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e793d0eda89520c8f32a1bd3e224e48b') in 0.150172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/Uss/LoginScreen.uss
+  artifactKey: Guid(3f1841802fbd2aa468851de3d24ade7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uss/LoginScreen.uss using Guid(3f1841802fbd2aa468851de3d24ade7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b046ddd24f5a9f33626775f73a696137') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Uss/MailScreen.uss
+  artifactKey: Guid(0835ae9473b8f3345b2efcd381f2dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uss/MailScreen.uss using Guid(0835ae9473b8f3345b2efcd381f2dcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd03d4e3436875b4cf48da643d98b9d') in 0.001832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/UI/Uss/MenuBar.uss
+  artifactKey: Guid(b20550ace638e7b49834cc175b073ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uss/MenuBar.uss using Guid(b20550ace638e7b49834cc175b073ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db769a7ed13059bda298a60fd05fdd7') in 0.345825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.475744 seconds.
+  path: Assets/UI/Uxml/MailScreen.uxml
+  artifactKey: Guid(ed6729b70214b5846afce7547fbfb980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uxml/MailScreen.uxml using Guid(ed6729b70214b5846afce7547fbfb980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946eaef087c71f39bfefa39cc5f85823') in 0.034583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/Uxml/Sample.uxml
+  artifactKey: Guid(af9eb598fb63d3a4ab7b415c088c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uxml/Sample.uxml using Guid(af9eb598fb63d3a4ab7b415c088c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c7ff5bb4c914eb09a06716713115df') in 0.163607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Uxml/Menu Bar.uxml
+  artifactKey: Guid(8b174bbf90472bd4388f347fa20293de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uxml/Menu Bar.uxml using Guid(8b174bbf90472bd4388f347fa20293de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b8e3389ebe7eae696cb604e2e3bdb1') in 0.379911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Uxml/UI.uxml
+  artifactKey: Guid(99004ea87a985634e990448eaa352d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Uxml/UI.uxml using Guid(99004ea87a985634e990448eaa352d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddf5456b9af11020f05589c9bc7cd31') in 0.203087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
